@@ -7,3 +7,8 @@ m = mult(10, 20, 30 ,40)
 
 def sqroot(a):
     return math.sqrt(a)
+
+
+def add(*args):
+    return sum([*args])
+
